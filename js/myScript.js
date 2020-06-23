@@ -18,33 +18,31 @@ const g6_model_iframe = document.getElementById('g6_model_style');
 
 
 
-
-
 //hover over pointers
 
 pointer_t2_one.addEventListener('mouseenter', e => 
 {
-    base.src = '../assets/images/pointers/pointer_t2_one_hover.jpg';
+    base.src = 'assets/images/pointers/pointer_t2_one_hover.jpg';
 });
   
 pointer_t2_one.addEventListener('mouseleave', e => 
 {
     if (userClicked === false)
     {
-        base.src = '../assets/images/base_labels.jpg';
+        base.src = 'assets/images/base_labels.jpg';
     }
 });
 
 pointer_g6.addEventListener('mouseenter', e => 
 {
-    base.src = '../assets/images/pointers/pointer_g6_hover.jpg';
+    base.src = 'assets/images/pointers/pointer_g6_hover.jpg';
 });
   
 pointer_g6.addEventListener('mouseleave', e => 
 {
     if (userClicked === false)
     {
-        base.src = '../assets/images/base_labels.jpg';
+        base.src = 'assets/images/base_labels.jpg';
     }
 });
 
@@ -56,7 +54,7 @@ pointer_g6.addEventListener('mouseleave', e =>
 pointer_t2_one.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = '../assets/images/pointers/pointer_t2_one_hover.jpg';
+    base.src = 'assets/images/pointers/pointer_t2_one_hover.jpg';
     pointer_t2_one_content.style.display = 'block';
     base.style.filter = "grayscale(80%)";
 });
@@ -64,7 +62,7 @@ pointer_t2_one.addEventListener('click', e =>
 pointer_g6.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = '../assets/images/pointers/pointer_g6_hover.jpg';
+    base.src = 'assets/images/pointers/pointer_g6_hover.jpg';
     g6_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
 });
@@ -78,7 +76,7 @@ pointer_g6.addEventListener('click', e =>
 close_content.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = '../assets/images/base_labels.jpg';
+    base.src = 'assets/images/base_labels.jpg';
     // g6_model_iframe.style.setProperty ("display", "none", "important");
     console.log('hide model');
     pointer_t2_one_content.style.display = 'none';
