@@ -28,10 +28,25 @@ body
     height: 10vh;
     position: relative;
     left: 35vw;
-    z-index: 999;
+    z-index: 100;
 }
 
-#close:hover
+.closeClass
+{
+    fill: #ff6632;
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    left: 35vw;
+    z-index: 100;
+}
+
+.model
+{
+    left: 1vw;
+}
+
+.closeClass:hover
 {
     fill: black;
     cursor: pointer;
@@ -40,9 +55,104 @@ body
 /* --- End General Styles --- */
 
 
-
-
 /* --- Start Styling Hover Pointers --- */
+
+#a1
+{
+    width: 4vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 37vh;
+    left: 22vw;
+    z-index: 5;
+}
+
+#a1:hover
+{
+    cursor: pointer;
+}
+
+#a2
+{
+    width: 3vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 48vh;
+    left: 35vw;
+    z-index: 5;
+}
+
+#a2:hover
+{
+    cursor: pointer;
+}
+
+#a3
+{
+    width: 4vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 65vh;
+    left: 78vw;
+    z-index: 5;
+}
+
+#a3:hover
+{
+    cursor: pointer;
+}
+
+#a4
+{
+    width: 4vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 35vh;
+    left: 75vw;
+    z-index: 5;
+}
+
+#a4:hover
+{
+    cursor: pointer;
+}
+
+#a5
+{
+    width: 4vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 47vh;
+    left: 66vw;
+    z-index: 5;
+}
+
+#a5:hover
+{
+    cursor: pointer;
+}
+
+#a6
+{
+    width: 4vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 68vh;
+    left: 58vw;
+    z-index: 5;
+}
+
+#a6:hover
+{
+    cursor: pointer;
+}
+
 #t2_one
 {
     width: 3vw;
@@ -75,6 +185,135 @@ body
     cursor: pointer;
 }
 
+#g5
+{
+    width: 2.5vw;
+    height: 50vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 45vh;
+    left: 46vw;
+    z-index: 5;
+}
+
+#g5:hover
+{
+    cursor: pointer;
+}
+
+#g8
+{
+    width: 2.5vw;
+    height: 12vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 20vh;
+    left: 81vw;
+    z-index: 5;
+}
+
+#g8:hover
+{
+    cursor: pointer;
+}
+
+#t1
+{
+    width: 1.5vw;
+    height: 27vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 42vh;
+    left: 28vw;
+    z-index: 5;
+}
+
+#t1:hover
+{
+    cursor: pointer;
+}
+
+#t3
+{
+    width: 2vw;
+    height: 27vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 14vh;
+    left: 47vw;
+    z-index: 5;
+}
+
+#t3:hover
+{
+    cursor: pointer;
+}
+
+#t4
+{
+    width: 2vw;
+    height: 27vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 14vh;
+    left: 52vw;
+    z-index: 5;
+}
+
+#t4:hover
+{
+    cursor: pointer;
+}
+
+#g2
+{
+    width: 1.5vw;
+    height: 27vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 14vh;
+    left: 26vw;
+    z-index: 5;
+}
+
+#g2:hover
+{
+    cursor: pointer;
+}
+
+#g1_g3_g7
+{
+    width: 2vw;
+    height: 32vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 10vh;
+    left: 27.5vw;
+    z-index: 5;
+}
+
+#g1_g3_g7:hover
+{
+    cursor: pointer;
+}
+
+#g9_g4
+{
+    width: 18vw;
+    height: 2.5vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 42vh;
+    left: 10vw;
+    z-index: 5;
+}
+
+#g9_g4:hover
+{
+    cursor: pointer;
+}
+
+
 /* --- End Styling Hover Pointers --- */
 
 
@@ -84,6 +323,45 @@ body
 /* ---Start Styling Content of Pointers ---  */
 
 #t2_one_text
+{
+    color: #ff6632;
+    position: relative;
+    word-spacing: 3px;
+    width: 80vw;
+    z-index: 10;
+    font-size: x-large;
+    left: 10vw;
+    bottom: 90vh;
+    display: none;
+}
+
+#t1_text
+{
+    color: #ff6632;
+    position: relative;
+    word-spacing: 3px;
+    width: 80vw;
+    z-index: 10;
+    font-size: x-large;
+    left: 10vw;
+    bottom: 90vh;
+    display: none;
+}
+
+#t3_text
+{
+    color: #ff6632;
+    position: relative;
+    word-spacing: 3px;
+    width: 80vw;
+    z-index: 10;
+    font-size: x-large;
+    left: 10vw;
+    bottom: 90vh;
+    display: none;
+}
+
+#t4_text
 {
     color: #ff6632;
     position: relative;
@@ -106,4 +384,65 @@ body
     height: 100vh;
     display: none;
 }
+
+#g5_model
+{
+    position: relative;
+    z-index: 10;
+    bottom: 80vh;
+    left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#g8_model
+{
+    position: relative;
+    z-index: 10;
+    bottom: 60vh;
+    left: 45vw;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#g2_model
+{
+    position: relative;
+    z-index: 10;
+    bottom: 50vh;
+    left: 30vw;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#g1_g3_g7_model
+{
+    position: relative;
+    z-index: 10;
+    bottom: 50vh;
+    left: 10vw;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#g9_g4_model
+{
+    position: relative;
+    z-index: 10;
+    bottom: 50vh;
+    left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#a1_content
+{
+    display: none;   
+}
+
 /* ---End Styling Content of Pointers ---  */
