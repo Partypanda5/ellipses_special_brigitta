@@ -5,6 +5,11 @@ body
     overflow: hidden;
 }
 
+.preloadImages
+{
+    display: none;
+}
+
 #base
 {
     width: 100vw;
