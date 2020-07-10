@@ -456,3 +456,7 @@ document.addEventListener('click', function (event) {
 });
 
 // <-------------------------------------------------------------------------------- END CLICK ON CLOSE BUTTON ---------------------------------------------------------------->
+
+$(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+  });
