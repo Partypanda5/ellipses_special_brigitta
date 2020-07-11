@@ -1,4 +1,40 @@
 /* --- Start General Styles --- */
+@font-face 
+{
+    font-family: Elephant;
+    src: url(../assets/fonts/ELEPHNT.TTF);
+}
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track 
+{
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+    }   
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #cc3300; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #cc3300; 
+}
+
+sup
+{
+    font-size: 10px;
+}
 
 body
 {
@@ -33,7 +69,7 @@ body
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: white;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +134,29 @@ body
 .model
 {
     left: 1vw;
+}
+
+.aClose
+{
+    fill: #ff6632;
+    width: 10vw;
+    height: 10vh;
+    position: relative;
+    bottom: 20vh;
+    left: 85vw;
+    z-index: 999;
+}
+
+.textClose
+{
+    bottom: 85vh;
+    left: 80vw;
+    z-index: 999;
+}
+
+.moreLeft
+{
+    left: 90vw;
 }
 
 .closeClass:hover
@@ -371,61 +430,77 @@ body
 /* --- End Styling Hover Pointers --- */
 
 
-
-
-
 /* ---Start Styling Content of Pointers ---  */
 
 #t2_one_text
 {
-    color: #ff6632;
-    position: relative;
-    word-spacing: 3px;
-    width: 80vw;
-    z-index: 10;
-    font-size: x-large;
-    left: 10vw;
-    bottom: 90vh;
     display: none;
 }
 
 #t1_text
 {
-    color: #ff6632;
-    position: relative;
-    word-spacing: 3px;
-    width: 80vw;
-    z-index: 10;
-    font-size: x-large;
-    left: 10vw;
-    bottom: 90vh;
     display: none;
 }
 
+
 #t3_text
 {
-    color: #ff6632;
-    position: relative;
-    word-spacing: 3px;
-    width: 80vw;
-    z-index: 10;
-    font-size: x-large;
-    left: 10vw;
-    bottom: 90vh;
     display: none;
 }
 
 #t4_text
 {
-    color: #ff6632;
-    position: relative;
-    word-spacing: 3px;
-    width: 80vw;
-    z-index: 10;
-    font-size: x-large;
-    left: 10vw;
-    bottom: 90vh;
     display: none;
+}
+
+
+.subtitle
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 82vh;
+    left: 20vw;
+    width: 60%;
+}
+
+.title
+{
+    font-family: Elephant;
+    color: #cc3300;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 85vh;
+    left: 20vw;
+    width: 60%;
+}
+
+.text-wrapper
+{
+    width: 70%;
+    height: 40vh;
+    background-color: white;
+    overflow-y: scroll;
+    position: relative;
+    bottom: 88vh;
+    left: 18vw;
+    z-index: 999;
+}
+
+.text-content
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4d4d4d;
+    font-size: 20px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #g6_model
@@ -496,7 +571,291 @@ body
 
 #a1_content
 {
-    display: none;   
+    display: none;  
+    z-index: 999; 
+}
+
+#a2_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#a3_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#a4_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#a5_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#a6_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#flow
+{
+    width: 5vw;
+    height: 5vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 52vh;
+    left: 21vw;
+    z-index: 5;
+}
+
+#flow:hover
+{
+    cursor: pointer;
+}
+
+#agregate
+{
+    width: 9vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 47vh;
+    left: 25vw;
+    z-index: 6;
+}
+
+#agregate:hover
+{
+    cursor: pointer;
+}
+
+#crack_ooze
+{
+    width: 9vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 38vh;
+    left: 32vw;
+    z-index: 5;
+}
+
+#crack_ooze:hover
+{
+    cursor: pointer;
+}
+
+#terra
+{
+    width: 5vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 29vh;
+    left: 33vw;
+    z-index: 5;
+}
+
+#terra:hover
+{
+    cursor: pointer;
+}
+
+#corrosion
+{
+    width: 7vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 22vh;
+    left: 40vw;
+    z-index: 5;
+}
+
+#corrosion:hover
+{
+    cursor: pointer;
+}
+
+#moss-grows
+{
+    width: 8vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 41vh;
+    left: 45vw;
+    z-index: 5;
+}
+
+#moss-grows:hover
+{
+    cursor: pointer;
+}
+
+#pile-crack
+{
+    width: 8vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 59vh;
+    left: 51vw;
+    z-index: 5;
+}
+
+#pile-crack:hover
+{
+    cursor: pointer;
+}
+
+#erosion
+{
+    width: 12vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 40vh;
+    left: 62vw;
+    z-index: 5;
+}
+
+#erosion:hover
+{
+    cursor: pointer;
+}
+
+#strata
+{
+    width: 6vw;
+    height: 4vh;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 36vh;
+    left: 79vw;
+    z-index: 5;
+}
+
+#strata:hover
+{
+    cursor: pointer;
+}
+
+#words1_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#words2_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+
+#words3_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+
+#words4_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+
+#words5_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+
+#words6_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+
+#words7_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#words8_content
+{
+    display: none;  
+    z-index: 999; 
+}
+
+#words9_content
+{
+    display: none;  
+    z-index: 999; 
 }
 
 /* ---End Styling Content of Pointers ---  */
+
+/* ---CHECK SCREEN SIZE FOR MOBILE / TABLET---  */
+
+@media only screen and (max-width: 1024px) 
+{
+        #base
+        {
+            display: none;
+        }
+
+        .loader-wrapper
+        {
+            display: none;
+        }
+
+        .showOnMobile
+        {
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        #mobileImage
+        {
+            width: 20%;
+        }
+}
+
+@media only screen and (min-width: 1025px)
+{
+    #base
+    {
+        display: block;
+    }
+
+    .loader-wrapper
+    {
+        display:flex;
+    }
+
+    .showOnMobile
+    {
+        display: none;
+    }
+}
