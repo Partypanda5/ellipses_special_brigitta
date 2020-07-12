@@ -10,8 +10,11 @@ const pointer_g6 = document.getElementById('g6');
 const pointer_g5 = document.getElementById('g5');
 const pointer_g8 = document.getElementById('g8');
 const pointer_g2 = document.getElementById('g2');
-const pointer_g1_g3_g7 = document.getElementById('g1_g3_g7');
-const pointer_g9_g4 = document.getElementById('g9_g4');
+const pointer_g1 = document.getElementById('g1');
+const pointer_g3 = document.getElementById('g3');
+const pointer_g7 = document.getElementById('g7');
+const pointer_g4 = document.getElementById('g4');
+const pointer_g9 = document.getElementById('g9');
 const pointer_a1 = document.getElementById('a1');
 const pointer_a2 = document.getElementById('a2');
 const pointer_a3 = document.getElementById('a3');
@@ -55,6 +58,9 @@ const close_content22 = document.querySelector('#close22');
 const close_content23 = document.querySelector('#close23');
 const close_content24 = document.querySelector('#close24');
 const close_content25 = document.querySelector('#close25');
+const close_content26 = document.querySelector('#close26');
+const close_content27 = document.querySelector('#close27');
+const close_content28 = document.querySelector('#close28');
 
 //user clicks
 userClicked = false;
@@ -69,8 +75,11 @@ const g6_model = document.getElementById('g6_model');
 const g5_model = document.getElementById('g5_model');
 const g8_model = document.getElementById('g8_model');
 const g2_model = document.getElementById('g2_model');
-const g1_g3_g7_model = document.getElementById('g1_g3_g7_model');
-const g9_g4_model = document.getElementById('g9_g4_model');
+const g1_model = document.getElementById('g1_model');
+const g3_model = document.getElementById('g3_model');
+const g7_model = document.getElementById('g7_model');
+const g4_model = document.getElementById('g4_model');
+const g9_model = document.getElementById('g9_model');
 
 const a1_content = document.getElementById('a1_content');
 const a2_content = document.getElementById('a2_content');
@@ -100,7 +109,7 @@ pointer_a1.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -113,7 +122,7 @@ pointer_a2.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -126,7 +135,7 @@ pointer_a3.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -139,7 +148,7 @@ pointer_a4.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -152,7 +161,7 @@ pointer_a5.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -165,7 +174,7 @@ pointer_a5.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -178,7 +187,7 @@ pointer_t2_one.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -191,7 +200,7 @@ pointer_g6.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -204,7 +213,7 @@ pointer_g5.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -217,7 +226,7 @@ pointer_g8.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -230,7 +239,7 @@ pointer_t1.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -243,7 +252,7 @@ pointer_t3.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -256,7 +265,7 @@ pointer_t4.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -269,33 +278,72 @@ pointer_g2.addEventListener('mouseleave', e =>
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
-pointer_g1_g3_g7.addEventListener('mouseenter', e => 
+pointer_g1.addEventListener('mouseenter', e => 
 {
-    base.src = 'assets/images/pointers/g1_g3_g7_hover.jpg';
+    base.src = 'assets/images/pointers/g1_hover.jpg';
 });
 
-pointer_g1_g3_g7.addEventListener('mouseleave', e => 
+pointer_g1.addEventListener('mouseleave', e => 
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
-pointer_g9_g4.addEventListener('mouseenter', e => 
+pointer_g3.addEventListener('mouseenter', e => 
 {
-    base.src = 'assets/images/pointers/g9_64_hover.jpg';
+    base.src = 'assets/images/pointers/g3_hover.jpg';
 });
 
-pointer_g9_g4.addEventListener('mouseleave', e => 
+pointer_g3.addEventListener('mouseleave', e => 
 {
     if (userClicked === false)
     {
-        base.src = 'assets/images/20200701_Control-Map.jpg';
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    }
+});
+
+pointer_g7.addEventListener('mouseenter', e => 
+{
+    base.src = 'assets/images/pointers/g7_hover.jpg';
+});
+
+pointer_g7.addEventListener('mouseleave', e => 
+{
+    if (userClicked === false)
+    {
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    }
+});
+
+pointer_g9.addEventListener('mouseenter', e => 
+{
+    base.src = 'assets/images/pointers/g9_hover.jpg';
+});
+
+pointer_g4.addEventListener('mouseenter', e => 
+{
+    base.src = 'assets/images/pointers/g4_hover.jpg';
+});
+
+pointer_g4.addEventListener('mouseleave', e => 
+{
+    if (userClicked === false)
+    {
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    }
+});
+
+pointer_g9.addEventListener('mouseleave', e => 
+{
+    if (userClicked === false)
+    {
+        base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     }
 });
 
@@ -360,11 +408,19 @@ pointer_g5.addEventListener('click', e =>
     base.style.filter = "grayscale(90%)";
 });
 
-pointer_g9_g4.addEventListener('click', e => 
+pointer_g4.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/pointers/g9_64_hover.jpg';
-    g9_g4_model.style.display = 'block';
+    base.src = 'assets/images/pointers/g4_hover.jpg';
+    g4_model.style.display = 'block';
+    base.style.filter = "grayscale(90%)";
+});
+
+pointer_g9.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/g9_hover.jpg';
+    g9_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
 });
 
@@ -384,13 +440,30 @@ pointer_g8.addEventListener('click', e =>
     base.style.filter = "grayscale(90%)";
 });
 
-pointer_g1_g3_g7.addEventListener('click', e => 
+pointer_g1.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/pointers/g1_g3_g7_hover.jpg';
-    g1_g3_g7_model.style.display = 'block';
+    base.src = 'assets/images/pointers/g1_hover.jpg';
+    g1_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
 });
+
+pointer_g3.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/g1_hover.jpg';
+    g3_model.style.display = 'block';
+    base.style.filter = "grayscale(90%)";
+});
+
+pointer_g7.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/g1_hover.jpg';
+    g7_model.style.display = 'block';
+    base.style.filter = "grayscale(90%)";
+});
+
 
 pointer_a1.addEventListener('click', e => 
 {
@@ -521,7 +594,7 @@ strata.addEventListener('click', e =>
 close_content1.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     pointer_t1_content.style.display = 'none';
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
@@ -531,7 +604,7 @@ close_content1.addEventListener('click', e =>
 close_content2.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     pointer_t2_one_content.style.display = 'none';
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
@@ -541,7 +614,7 @@ close_content2.addEventListener('click', e =>
 close_content3.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     pointer_t3_content.style.display = 'none';
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
@@ -551,7 +624,7 @@ close_content3.addEventListener('click', e =>
 close_content4.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     pointer_t4_content.style.display = 'none';
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
@@ -561,7 +634,7 @@ close_content4.addEventListener('click', e =>
 close_content5.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g6_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
@@ -569,7 +642,7 @@ close_content5.addEventListener('click', e =>
 close_content6.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g5_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
@@ -577,7 +650,7 @@ close_content6.addEventListener('click', e =>
 close_content7.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g8_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
@@ -585,7 +658,7 @@ close_content7.addEventListener('click', e =>
 close_content8.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g2_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
@@ -593,23 +666,23 @@ close_content8.addEventListener('click', e =>
 close_content9.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
-    g1_g3_g7_model.style.display = 'none';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g1_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
 
 close_content10.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
-    g9_g4_model.style.display = 'none';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g9_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
 
 close_content11.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a1_content.style.display='none';
     base.style.zIndex = '0';
@@ -618,7 +691,7 @@ close_content11.addEventListener('click', e =>
 close_content12.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a2_content.style.display='none';
     base.style.zIndex = '0';
@@ -627,7 +700,7 @@ close_content12.addEventListener('click', e =>
 close_content13.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a3_content.style.display='none';
     base.style.zIndex = '0';
@@ -636,7 +709,7 @@ close_content13.addEventListener('click', e =>
 close_content14.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a4_content.style.display='none';
     base.style.zIndex = '0';
@@ -645,7 +718,7 @@ close_content14.addEventListener('click', e =>
 close_content15.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a5_content.style.display='none';
     base.style.zIndex = '0';
@@ -654,7 +727,7 @@ close_content15.addEventListener('click', e =>
 close_content16.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     a6_content.style.display='none';
     base.style.zIndex = '0';
@@ -663,7 +736,7 @@ close_content16.addEventListener('click', e =>
 close_content17.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words1_content.style.display='none';
     base.style.zIndex = '0';
@@ -672,7 +745,7 @@ close_content17.addEventListener('click', e =>
 close_content18.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words2_content.style.display='none';
     base.style.zIndex = '0';
@@ -681,7 +754,7 @@ close_content18.addEventListener('click', e =>
 close_content19.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words3_content.style.display='none';
     base.style.zIndex = '0';
@@ -690,7 +763,7 @@ close_content19.addEventListener('click', e =>
 close_content20.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words4_content.style.display='none';
     base.style.zIndex = '0';
@@ -699,7 +772,7 @@ close_content20.addEventListener('click', e =>
 close_content21.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words5_content.style.display='none';
     base.style.zIndex = '0';
@@ -708,7 +781,7 @@ close_content21.addEventListener('click', e =>
 close_content22.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words6_content.style.display='none';
     base.style.zIndex = '0';
@@ -717,7 +790,7 @@ close_content22.addEventListener('click', e =>
 close_content23.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words7_content.style.display='none';
     base.style.zIndex = '0';
@@ -726,7 +799,7 @@ close_content23.addEventListener('click', e =>
 close_content24.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words8_content.style.display='none';
     base.style.zIndex = '0';
@@ -735,11 +808,37 @@ close_content24.addEventListener('click', e =>
 close_content25.addEventListener('click', e => 
 {
     userClicked = true;
-    base.src = 'assets/images/20200701_Control-Map.jpg';
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     base.style.filter = "grayscale(0%)";
     words9_content.style.display='none';
     base.style.zIndex = '0';
 });
+
+close_content26.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g3_model.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+});
+
+
+close_content27.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g7_model.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+});
+
+close_content28.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g4_model.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+});
+
 document.addEventListener('click', function (event) {
     console.log(event.target);
     console.log(base.style.zIndex);
