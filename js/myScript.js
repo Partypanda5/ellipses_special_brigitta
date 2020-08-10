@@ -111,6 +111,8 @@ const t_key_text = document.getElementById('t_key_text');
 const a_key_text = document.getElementById('a_key_text');
 const w_key_text = document.getElementById('w_key_text');
 const g_key_text = document.getElementById('g_key_text');
+
+const digiCleanse = document.getElementById('digiCleanse');
 // <-------------------------------------------------------------------------------- START Hover Over Tags -------------------------------------------------------------------------->
 pointer_a1.addEventListener('mouseenter', e => 
 {
@@ -371,6 +373,8 @@ t_key.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 a_key.addEventListener('click', e => 
@@ -381,6 +385,8 @@ a_key.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 w_key.addEventListener('click', e => 
@@ -391,6 +397,8 @@ w_key.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 g_key.addEventListener('click', e => 
@@ -401,6 +409,8 @@ g_key.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_t1.addEventListener('click', e => 
@@ -411,6 +421,8 @@ pointer_t1.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_t2_one.addEventListener('click', e => 
@@ -421,6 +433,8 @@ pointer_t2_one.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_t3.addEventListener('click', e => 
@@ -431,6 +445,8 @@ pointer_t3.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_t4.addEventListener('click', e => 
@@ -441,6 +457,8 @@ pointer_t4.addEventListener('click', e =>
     base.style.opacity = "0.2";
     base.style.filter = "grayscale(80%)";
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g6.addEventListener('click', e => 
@@ -449,6 +467,8 @@ pointer_g6.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g6_hover.jpg';
     g6_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g5.addEventListener('click', e => 
@@ -457,6 +477,8 @@ pointer_g5.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g5_hover.jpg';
     g5_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g4.addEventListener('click', e => 
@@ -465,6 +487,8 @@ pointer_g4.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g4_hover.jpg';
     g4_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g9.addEventListener('click', e => 
@@ -473,6 +497,8 @@ pointer_g9.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g9_hover.jpg';
     g9_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g2.addEventListener('click', e => 
@@ -481,6 +507,8 @@ pointer_g2.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g2_hover.jpg';
     g2_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g8.addEventListener('click', e => 
@@ -489,6 +517,8 @@ pointer_g8.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g8_hover.jpg';
     g8_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g1.addEventListener('click', e => 
@@ -497,6 +527,8 @@ pointer_g1.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g1_hover.jpg';
     g1_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g3.addEventListener('click', e => 
@@ -505,6 +537,8 @@ pointer_g3.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g1_hover.jpg';
     g3_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_g7.addEventListener('click', e => 
@@ -513,6 +547,8 @@ pointer_g7.addEventListener('click', e =>
     base.src = 'assets/images/pointers/g1_hover.jpg';
     g7_model.style.display = 'block';
     base.style.filter = "grayscale(90%)";
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 
@@ -522,6 +558,8 @@ pointer_a1.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A1.jpg';
     a1_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 
@@ -531,6 +569,8 @@ pointer_a2.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A2.jpg';
     a2_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_a3.addEventListener('click', e => 
@@ -539,6 +579,8 @@ pointer_a3.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A3.jpg';
     a3_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_a4.addEventListener('click', e => 
@@ -547,6 +589,8 @@ pointer_a4.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A4.jpg';
     a4_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_a5.addEventListener('click', e => 
@@ -555,6 +599,8 @@ pointer_a5.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A5.jpg';
     a5_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pointer_a6.addEventListener('click', e => 
@@ -563,6 +609,8 @@ pointer_a6.addEventListener('click', e =>
     base.src = 'assets/images/A_tags/A6.jpg';
     a6_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 flow.addEventListener('click', e => 
@@ -571,6 +619,8 @@ flow.addEventListener('click', e =>
     base.src = 'assets/images/collages/FLOWS.jpg';
     words1_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 agregate.addEventListener('click', e => 
@@ -579,6 +629,8 @@ agregate.addEventListener('click', e =>
     base.src = 'assets/images/collages/AGREGATE.jpg';
     words2_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 crack_ooze.addEventListener('click', e => 
@@ -587,6 +639,8 @@ crack_ooze.addEventListener('click', e =>
     base.src = 'assets/images/collages/CRACK-OOZE.jpg';
     words3_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 terra.addEventListener('click', e => 
@@ -595,6 +649,8 @@ terra.addEventListener('click', e =>
     base.src = 'assets/images/collages/TERRA.jpg';
     words4_content.style.display='block';
     base.style.zIndex = '900';
+        digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 corrosion.addEventListener('click', e => 
@@ -603,6 +659,8 @@ corrosion.addEventListener('click', e =>
     base.src = 'assets/images/collages/CORROSIONS.jpg';
     words5_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 moss.addEventListener('click', e => 
@@ -611,6 +669,8 @@ moss.addEventListener('click', e =>
     base.src = 'assets/images/collages/GROWS.jpg';
     words6_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 pile.addEventListener('click', e => 
@@ -619,6 +679,8 @@ pile.addEventListener('click', e =>
     base.src = 'assets/images/collages/CRACK-PILE.jpg';
     words7_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 erosion.addEventListener('click', e => 
@@ -627,6 +689,8 @@ erosion.addEventListener('click', e =>
     base.src = 'assets/images/collages/ERROSION-RESISTANT.jpg';
     words8_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 strata.addEventListener('click', e => 
@@ -635,6 +699,8 @@ strata.addEventListener('click', e =>
     base.src = 'assets/images/collages/STRATA.jpg';
     words9_content.style.display='block';
     base.style.zIndex = '900';
+    digiCleanse.style.opacity = "0.2";
+    digiCleanse.style.filter = "grayscale(80%)";
 });
 
 // <-------------------------------------------------------------------------------- END Click On Tags -------------------------------------------------------------------------->
@@ -650,6 +716,8 @@ close_content1.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+    digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content2.addEventListener('click', e => 
@@ -660,6 +728,8 @@ close_content2.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content3.addEventListener('click', e => 
@@ -670,6 +740,8 @@ close_content3.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content4.addEventListener('click', e => 
@@ -680,6 +752,8 @@ close_content4.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content5.addEventListener('click', e => 
@@ -688,6 +762,8 @@ close_content5.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g6_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content6.addEventListener('click', e => 
@@ -696,6 +772,8 @@ close_content6.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g5_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content7.addEventListener('click', e => 
@@ -704,6 +782,8 @@ close_content7.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g8_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content8.addEventListener('click', e => 
@@ -712,6 +792,8 @@ close_content8.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g2_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content9.addEventListener('click', e => 
@@ -720,6 +802,8 @@ close_content9.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g1_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content10.addEventListener('click', e => 
@@ -728,6 +812,8 @@ close_content10.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g9_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content11.addEventListener('click', e => 
@@ -737,6 +823,8 @@ close_content11.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a1_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content12.addEventListener('click', e => 
@@ -746,6 +834,8 @@ close_content12.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a2_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content13.addEventListener('click', e => 
@@ -755,6 +845,8 @@ close_content13.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a3_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content14.addEventListener('click', e => 
@@ -764,6 +856,8 @@ close_content14.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a4_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content15.addEventListener('click', e => 
@@ -773,6 +867,8 @@ close_content15.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a5_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content16.addEventListener('click', e => 
@@ -782,6 +878,8 @@ close_content16.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     a6_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content17.addEventListener('click', e => 
@@ -791,6 +889,8 @@ close_content17.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words1_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content18.addEventListener('click', e => 
@@ -800,6 +900,8 @@ close_content18.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words2_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content19.addEventListener('click', e => 
@@ -809,6 +911,8 @@ close_content19.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words3_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content20.addEventListener('click', e => 
@@ -818,6 +922,8 @@ close_content20.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words4_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content21.addEventListener('click', e => 
@@ -827,6 +933,8 @@ close_content21.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words5_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content22.addEventListener('click', e => 
@@ -836,6 +944,8 @@ close_content22.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words6_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content23.addEventListener('click', e => 
@@ -845,6 +955,8 @@ close_content23.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words7_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content24.addEventListener('click', e => 
@@ -854,6 +966,8 @@ close_content24.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words8_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content25.addEventListener('click', e => 
@@ -863,6 +977,8 @@ close_content25.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     words9_content.style.display='none';
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content26.addEventListener('click', e => 
@@ -871,6 +987,8 @@ close_content26.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g3_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 
@@ -880,6 +998,8 @@ close_content27.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g7_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content28.addEventListener('click', e => 
@@ -888,6 +1008,8 @@ close_content28.addEventListener('click', e =>
     base.src = 'assets/images/20200701_Control-Map_NT.jpg';
     g4_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content29.addEventListener('click', e => 
@@ -898,6 +1020,8 @@ close_content29.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content30.addEventListener('click', e => 
@@ -908,6 +1032,8 @@ close_content30.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content31.addEventListener('click', e => 
@@ -918,6 +1044,8 @@ close_content31.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 close_content32.addEventListener('click', e => 
@@ -928,6 +1056,8 @@ close_content32.addEventListener('click', e =>
     base.style.filter = "grayscale(0%)";
     base.style.opacity = "1";
     base.style.zIndex = '0';
+        digiCleanse.style.opacity = "1";
+    digiCleanse.style.filter = "grayscale(0%)";
 });
 
 

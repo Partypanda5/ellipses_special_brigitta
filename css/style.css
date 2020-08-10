@@ -5,6 +5,15 @@
     src: url(../assets/fonts/ELEPHNT.TTF);
 }
 
+#digiCleanse
+{
+    position: absolute;
+    top: 25vh;
+    right: 15px;
+    width: 120px;
+    height: auto;
+}
+
 /* width */
 ::-webkit-scrollbar 
 {
@@ -1055,6 +1064,7 @@ body
     #base
     {
         display: none;
+        z-index: 0;
     }
 
     .loader-wrapper
@@ -1104,22 +1114,21 @@ body
         .baseImageMobile
         {
             /* Full height */
-            height: 300%;
-            width: 5000%;
+            height: 766px;
+            width: 5000px;
           
             /* Center and scale the image nicely */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url("../assets/images/BaseMobile.jpg");
-            position: relative;
+            z-index: 999;
         }
 
     ::-webkit-scrollbar-thumb 
         {
             background-color: white;
         }
-
 
 }
 
