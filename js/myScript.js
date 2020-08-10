@@ -31,6 +31,11 @@ const erosion = document.getElementById('erosion');
 const strata = document.getElementById('strata');
 const terra = document.getElementById('terra');
 
+//keys
+const t_key = document.getElementById('t_key');
+const a_key = document.getElementById('a_key');
+const w_key = document.getElementById('w_key');
+const g_key = document.getElementById('g_key');
 
 //close buttons
 const close_content1 = document.querySelector('#close1');
@@ -61,6 +66,10 @@ const close_content25 = document.querySelector('#close25');
 const close_content26 = document.querySelector('#close26');
 const close_content27 = document.querySelector('#close27');
 const close_content28 = document.querySelector('#close28');
+const close_content29 = document.querySelector('#close29');
+const close_content30 = document.querySelector('#close30');
+const close_content31 = document.querySelector('#close31');
+const close_content32 = document.querySelector('#close32');
 
 //user clicks
 userClicked = false;
@@ -98,7 +107,10 @@ const words7_content = document.getElementById('words7_content');
 const words8_content = document.getElementById('words8_content');
 const words9_content = document.getElementById('words9_content');
 
-
+const t_key_text = document.getElementById('t_key_text');
+const a_key_text = document.getElementById('a_key_text');
+const w_key_text = document.getElementById('w_key_text');
+const g_key_text = document.getElementById('g_key_text');
 // <-------------------------------------------------------------------------------- START Hover Over Tags -------------------------------------------------------------------------->
 pointer_a1.addEventListener('mouseenter', e => 
 {
@@ -351,6 +363,45 @@ pointer_g9.addEventListener('mouseleave', e =>
 // <-------------------------------------------------------------------------------- END Hover Over Tags -------------------------------------------------------------------------->
 
 // <-------------------------------------------------------------------------------- START Click On Tags -------------------------------------------------------------------------->
+t_key.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/t1_hover.jpg';
+    t_key_text.style.display = 'block';
+    base.style.opacity = "0.2";
+    base.style.filter = "grayscale(80%)";
+    base.style.zIndex = '900';
+});
+
+a_key.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/t1_hover.jpg';
+    a_key_text.style.display = 'block';
+    base.style.opacity = "0.2";
+    base.style.filter = "grayscale(80%)";
+    base.style.zIndex = '900';
+});
+
+w_key.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/t1_hover.jpg';
+    w_key_text.style.display = 'block';
+    base.style.opacity = "0.2";
+    base.style.filter = "grayscale(80%)";
+    base.style.zIndex = '900';
+});
+
+g_key.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/pointers/t1_hover.jpg';
+    g_key_text.style.display = 'block';
+    base.style.opacity = "0.2";
+    base.style.filter = "grayscale(80%)";
+    base.style.zIndex = '900';
+});
 
 pointer_t1.addEventListener('click', e => 
 {
@@ -838,6 +889,47 @@ close_content28.addEventListener('click', e =>
     g4_model.style.display = 'none';
     base.style.filter = "grayscale(0%)";
 });
+
+close_content29.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    t_key_text.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+    base.style.opacity = "1";
+    base.style.zIndex = '0';
+});
+
+close_content30.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    a_key_text.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+    base.style.opacity = "1";
+    base.style.zIndex = '0';
+});
+
+close_content31.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    w_key_text.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+    base.style.opacity = "1";
+    base.style.zIndex = '0';
+});
+
+close_content32.addEventListener('click', e => 
+{
+    userClicked = true;
+    base.src = 'assets/images/20200701_Control-Map_NT.jpg';
+    g_key_text.style.display = 'none';
+    base.style.filter = "grayscale(0%)";
+    base.style.opacity = "1";
+    base.style.zIndex = '0';
+});
+
 
 document.addEventListener('click', function (event) {
     console.log(event.target);
