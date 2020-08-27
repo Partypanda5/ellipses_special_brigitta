@@ -5,6 +5,12 @@
     src: url(../assets/fonts/ELEPHNT.TTF);
 }
 
+@font-face 
+{
+    font-family: HelveticaNeue;
+    src: url(../assets/fonts/HelveticaNeue.otf);
+}
+
 #digiCleanse
 {
     position: absolute;
@@ -56,10 +62,11 @@ body
 
 #homeTitle
 {
-    font-family: Elephant;
+    font-family: HelveticaNeue;
+    font-size: 22px;
     z-index: 1000;
     position: absolute;
-    bottom: 2vh;
+    bottom: 2.5vh;
     left: 1.5vw;
 }
 
@@ -252,7 +259,7 @@ body
 
 .textClose
 {
-    bottom: 85vh;
+    bottom: 87vh;
     left: 80vw;
     z-index: 999;
 }
@@ -727,7 +734,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 30vw;
     width: 100vw;
     height: 100vh;
@@ -738,7 +745,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 10vw;
     width: 100vw;
     height: 100vh;
@@ -749,7 +756,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 10vw;
     width: 100vw;
     height: 100vh;
@@ -760,7 +767,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 10vw;
     width: 100vw;
     height: 100vh;
@@ -771,7 +778,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 20vw;
     width: 100vw;
     height: 100vh;
@@ -782,7 +789,7 @@ body
 {
     position: relative;
     z-index: 10;
-    bottom: 50vh;
+    bottom: 70vh;
     left: 20vw;
     width: 100vw;
     height: 100vh;
@@ -1090,16 +1097,15 @@ body
     
         #text
     {
-    
-            color: white;
-            text-align: center;
-            position: relative;
-            font-size: x-large;
-            font-family: Elephant;
-            top: 20%;
-            left: 10%;
-            display: block; 
-            width: 80%;
+        color: white;
+        text-align: center;
+        position: relative;
+        font-size: x-large;
+        font-family: Elephant;
+        top: 20%;
+        left: 10%;
+        display: block; 
+        width: 80%;
     }
 
         #ellipsesLogo
@@ -1122,14 +1128,13 @@ body
             background-repeat: no-repeat;
             background-size: cover;
             background-image: url("../assets/images/BaseMobile.jpg");
-            z-index: 999;
+            z-index: 900;
         }
 
     ::-webkit-scrollbar-thumb 
         {
             background-color: white;
         }
-
 }
 
 @media only screen and (min-width: 1025px)
@@ -1160,6 +1165,26 @@ body
     }
 
     #ellipsesLogo
+    {
+        display: none;
+    }
+
+    .mobileT4Block
+    {
+        display: none;
+    }
+    
+    .mobileT3Block
+    {
+        display: none;
+    }
+    
+    .mobileT2Block
+    {
+        display: none;
+    }
+    
+    .mobileT1Block
     {
         display: none;
     }
