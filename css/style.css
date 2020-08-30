@@ -62,11 +62,11 @@ body
 
 #homeTitle
 {
-    font-family: HelveticaNeue;
-    font-size: 22px;
+    font-family: Elephant;
+    font-size: 25px;
     z-index: 1000;
     position: absolute;
-    bottom: 2.5vh;
+    bottom: 2vh;
     left: 1.5vw;
 }
 
@@ -1120,7 +1120,7 @@ body
         .baseImageMobile
         {
             /* Full height */
-            height: 766px;
+            height: 764px;
             width: 5000px;
           
             /* Center and scale the image nicely */
