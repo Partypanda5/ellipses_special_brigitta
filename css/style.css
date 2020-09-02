@@ -11,6 +11,18 @@
     src: url(../assets/fonts/HelveticaNeue.otf);
 }
 
+#loadingTitle
+{
+    font-family: HelveticaNeue;
+    color: #CA5127;
+    font-size: 25px;
+    z-index: 1000;
+    position: absolute;
+    width: 25%;
+    top: 55vh;
+    text-align: center;
+}
+
 #digiCleanse
 {
     position: absolute;
